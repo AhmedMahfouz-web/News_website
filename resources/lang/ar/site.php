@@ -71,4 +71,7 @@ return [
     'descreption' => 'الوصف',
 
     'activity' => 'النشاطات',
+
+    'remember_me' => 'تذكرنى',
+    'login' => 'تسجيل دخول',
 ];
