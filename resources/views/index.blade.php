@@ -33,7 +33,7 @@
                     </div>
                     <div class="main-news-body">
                         <h2 class="pr-3">{{ $news[0]->title }}</h2>
-                        <p>{!! Str::limit($news[0]->body, 100) !!}</p>
+                        {!! Str::limit($news[0]->body, 100) !!}
                     </div>
                 </a>
             </div>
@@ -75,7 +75,7 @@
                                 alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">{{$single_news->title}}</h5>
-                                <span class="card-text">{{Str::limit($single_news->body, 50)}}</span>
+                                <span class="card-text">{!!Str::limit($single_news->body, 75)!!}</span>
                             </div>
                         </div>
                     </a>

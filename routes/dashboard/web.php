@@ -12,7 +12,7 @@ Route::group([	'prefix' => LaravelLocalization::setLocale(),
        
         //Departments route
         Route::resource('/departments', 'DepartmentsController');
-        Route::resource('/topics', 'topicsController');
+        Route::resource('/topics', 'TopicsController');
         Route::get('/departments/{id}/create', 'DepartmentsController@createSub')->name('.departments.createSub');
         
         //News route
