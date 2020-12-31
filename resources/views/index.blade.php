@@ -1297,8 +1297,8 @@
     @else
 
     <div class="row">
-        <div class="box">
-            No news yet.
+        <div class="col col-4">
+            لا يوجد اخبار بعد.
         </div>
     </div>
 
