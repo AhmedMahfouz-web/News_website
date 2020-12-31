@@ -22,7 +22,9 @@
         <img src="uploads/12144.jpg" width="60%" height="90" alt="" class=" m-auto">
     </div>
 
+    @if($news->count() > 0)
     <div class="row mb-3">
+
         <div class="col-md-8 pb-4">
             <div class="main-news">
                 <a href="{{route('news', $news[0])}}">
@@ -1292,6 +1294,15 @@
             </div>
         </div>
     </div>
+    @else
+
+    <div class="row">
+        <div class="box">
+            No news yet.
+        </div>
+    </div>
+
+    @endif
 </div>
 
 @endsection
